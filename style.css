@@ -58,3 +58,23 @@ main{
     position: absolute;
    
 }
+@media (min-device-width:900px) {
+    .clr1,.clr2{
+        background: white;
+        height: 5rem;
+        width: 5rem;
+        border-radius: 50%;
+        position: absolute;
+        background: linear-gradient(to right bottom,rgba(252, 6, 219, 0.9),rgba(221, 68, 188, 0.1));
+    }
+    .glass{
+        background: white;
+        min-height: 80vh;
+        border-radius: 2rem;
+        z-index: 5;
+        backdrop-filter: blur(2rem);
+        width: 70%;
+        background: linear-gradient(rgba(255, 2, 192, 0.7),rgba(240, 5, 189, 0.3));
+        
+    }
+}

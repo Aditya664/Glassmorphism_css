@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+   min-height: 100vh;
+   background: linear-gradient(to right top, #65dfc9,#6cdbed);
+   align-items: center;
+    display: flex;
+    font-family: 'Zen Tokyo Zoo', cursive;
+    justify-content: center;
+}
+.glass{
+    background: white;
+    min-height: 80vh;
+    border-radius: 2rem;
+    z-index: 5;
+    backdrop-filter: blur(2rem);
+    width: 60%;
+    background: linear-gradient(rgba(255, 2, 192, 0.7),rgba(240, 5, 189, 0.3));
+    
+}
+.clr1,.clr2{
+    background: white;
+    height: 20rem;
+    width: 20rem;
+  
+    border-radius: 50%;
+    position: absolute;
+    background: linear-gradient(to right bottom,rgba(252, 6, 219, 0.9),rgba(221, 68, 188, 0.1));
+}
+.clr1{
+    top: 5%;
+    right: 15%;
+}
+.clr2{
+    bottom: 5%;
+    left: 10%;
+}
+.container{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-height: 80vh; 
+}
+.container img{
+    width: 100;
+    height: 70vh;
+    margin: 2rem;
+    position: relative;
+}
+.container h2{
+    margin-bottom: 220px;
+   
+}
